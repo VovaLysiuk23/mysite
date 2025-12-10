@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #893f45;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  padding: 50px 0;
+  background-color: #320b35;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+}
+
+/* NAV */
+nav {
+  background-color: #7851a9;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  width: 120px;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  color: white;
+  line-height: 3.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav a:hover {
+  background: white;
+  color: #138808;
+}
+
+footer {
+  background-color: #ff7e93;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  clear: both;
+}
+
+/* TEXT */
+p {
+  font-size: 16px;
+  color: white;
+  padding: 5px 15px;
+}
+
+/* FLOAT IMAGES */
+.Img {
+  width: 200px;
+}
+
+.left {
+  float: left;
+  margin-right: 10px;
+}
+
+.right {
+  float: right;
+  margin-left: 10px;
+}
+
+/* GALLERY */
+.gallery img {
+  width: 250px;
+  height: 210px;
+  border-radius: 10px;
+  margin: 10px;
+  transition: transform .3s;
+  box-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+
+.gallery img:hover {
+  transform: scale(1.15);
+}
+
+/* HOMEPAGE IMAGES */
+.home-img {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ANIMATION */
+.fade-in {
+  animation: fade 1.2s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(20px);}
+  to   { opacity: 1; transform: translateY(0);}
+}
+
+.multimedia {
+    overflow: auto;
+}
+
+.multimedia-video {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+form {
+    padding: 10px 5px;
+    float: right;
+}
+
+form input, form textarea {
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+form input[type="submit"] {
+    background: #fff;
+    color: #320b35;
+    font-weight: bold;
+    cursor: pointer;
+}
+
