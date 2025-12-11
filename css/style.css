@@ -143,6 +143,21 @@ form input[type="submit"] {
     height: 230px;
     border-radius: 10px;
 }
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-container video,
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    background: black;
+}
+
 
 
 
